@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="text-center p-5 bg-primary text-white">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Frontend Developer | Web Designer | Data Science Enthusiast</p>
+    </header>
+
+    <section class="container mt-5">
+        <h2>About Me</h2>
+        <p>Hi, I'm Swaroop Patil. I am passionate about creating user-friendly websites and applications. I have experience in HTML, CSS, JavaScript, PHP, and various frontend frameworks.</p>
+    </section>
+
+    <section class="container mt-5">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/project1.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Cloud Storage</h5>
+                        <p class="card-text">A brief description of your project goes here.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/project2.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Customer Lifetime Value</h5>
+                        <p class="card-text">A brief description of your project goes here.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat similar structure for other projects -->
+        </div>
+    </section>
+    
+
+    <section class="container mt-5">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <footer class="text-center p-3 bg-dark text-white mt-5">
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        <div>
+            <a href="https://github.com/yourprofile" class="text-white mx-2"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/yourprofile" class="text-white mx-2"><i class="fab fa-linkedin"></i></a>
+            <a href="https://gmail.com/in/yourprofile"class="text-white mx-2"><i class="fab fa-gmail"></i></a>
+            <!-- Add other social links -->
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
